@@ -1,0 +1,164 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(52, 52, 52);
+    box-sizing: border-box;
+    text-align: center;
+}
+.card {
+    position: absolute;
+    margin: auto;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+.big-card img {
+    height: 200px;
+    width: 130px;
+}
+.big-card {
+    left: 40%;
+    top: 15%;
+   /* background-color: rgba(245, 245, 245, 0.534); */
+}
+.small-card {
+    background-color: rgba(255, 255, 255, 0.397);
+}
+.bon {
+    transform: translate(40px) rotate(15deg);
+    z-index: 8;
+}
+.btw {
+    transform: translate(20px) rotate(7.5deg);
+    z-index: 7;
+}
+.bth {
+    transform: translate(0px) rotat0(0deg);
+    z-index: 6;
+}
+.bfo {
+    transform: translate(-20px) rotate(-7.5deg);
+    z-index: 5;
+}
+
+.show {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 3px 7px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* hover efect */
+
+.big-card:hover {
+    padding: 10px;
+    background-color: white;
+    z-index: 10;
+    transform: translate(0, 10px);
+}
+
+
+.bone {
+    transform: translate(160px) rotate(15deg);
+    z-index: 8;
+}
+.btwo {
+    transform: translate(80px) rotate(9.5deg);
+    z-index: 7;
+}
+.bthree {
+    transform: translate(-30px) rotate(-3deg);
+    z-index: 6;
+}
+.bfour {
+    transform: translate(-130px) rotate(-9.5deg);
+    z-index: 5;
+}
+
+.test-el {
+    display: none;
+}
+
+.test-el.active {
+    display: block;
+}
+
+
+@media (max-width: 795px) {
+    
+.big-card img {
+    height: 130px;
+    width: 90px;
+}
+.bone {
+    transform: translate(130px) rotate(15deg);
+    z-index: 8;
+}
+.btwo {
+    transform: translate(50px) rotate(9.5deg);
+    z-index: 7;
+}
+.bthree {
+    transform: translate(-10px) rotate(-3deg);
+    z-index: 6;
+}
+.bfour {
+    transform: translate(-80px) rotate(-9.5deg);
+    z-index: 5;
+}
+}
+
+
+
+@media (max-width: 587px) {
+    
+    .big-card img {
+        height: 100px;
+        width: 70px;
+    }
+    .bone {
+        transform: translate(100px) rotate(15deg);
+        z-index: 8;
+    }
+    .btwo {
+        transform: translate(30px) rotate(9.5deg);
+        z-index: 7;
+    }
+    .bthree {
+        transform: translate(-10px) rotate(-3deg);
+        z-index: 6;
+    }
+    .bfour {
+        transform: translate(-60px) rotate(-9.5deg);
+        z-index: 5;
+    }
+}
+
+
+@media (max-width: 431px) {
+    
+    .big-card img {
+        height: 90px;
+        width: 60px;
+    }
+    .bone {
+        transform: translate(60px) rotate(15deg);
+        z-index: 8;
+    }
+    .btwo {
+        transform: translate(20px) rotate(9.5deg);
+        z-index: 7;
+    }
+    .bthree {
+        transform: translate(-20px) rotate(-3deg);
+        z-index: 6;
+    }
+    .bfour {
+        transform: translate(-60px) rotate(-9.5deg);
+        z-index: 5;
+    }
+}
