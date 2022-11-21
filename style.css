@@ -88,62 +88,12 @@ body {
 }
 
 
-@media (max-width: 795px) {
-    
-.big-card img {
-    height: 180px;
-    width: 110px;
-}
-.bone {
-    transform: translate(130px) rotate(15deg);
-    z-index: 8;
-}
-.btwo {
-    transform: translate(50px) rotate(9.5deg);
-    z-index: 7;
-}
-.bthree {
-    transform: translate(-10px) rotate(-3deg);
-    z-index: 6;
-}
-.bfour {
-    transform: translate(-80px) rotate(-9.5deg);
-    z-index: 5;
-}
-}
-
-
-
-@media (max-width: 587px) {
-    
-    .big-card img {
-        height: 130px;
-        width: 85px;
-    }
-    .bone {
-        transform: translate(100px) rotate(15deg);
-        z-index: 8;
-    }
-    .btwo {
-        transform: translate(30px) rotate(9.5deg);
-        z-index: 7;
-    }
-    .bthree {
-        transform: translate(-10px) rotate(-3deg);
-        z-index: 6;
-    }
-    .bfour {
-        transform: translate(-60px) rotate(-9.5deg);
-        z-index: 5;
-    }
-}
-
 
 @media (max-width: 431px) {
     
     .big-card img {
-        height: 110px;
-        width: 70px;
+        height: 180px;
+        width: 120px;
     }
     .bone {
         transform: translate(60px) rotate(15deg);
