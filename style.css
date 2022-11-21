@@ -87,28 +87,3 @@ body {
     display: block;
 }
 
-
-
-@media (max-width: 431px) {
-    
-    .big-card img {
-        height: 180px;
-        width: 120px;
-    }
-    .bone {
-        transform: translate(60px) rotate(15deg);
-        z-index: 8;
-    }
-    .btwo {
-        transform: translate(20px) rotate(9.5deg);
-        z-index: 7;
-    }
-    .bthree {
-        transform: translate(-20px) rotate(-3deg);
-        z-index: 6;
-    }
-    .bfour {
-        transform: translate(-60px) rotate(-9.5deg);
-        z-index: 5;
-    }
-}
